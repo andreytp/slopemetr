@@ -8,17 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var viewModel = SlopeViewModel()
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+                    Text("Pitch Angle: \(viewModel.slopeAnglePitch, specifier: "%.2f")°")
+                        .font(.title)
+                    Text("Roll Angle: \(viewModel.slopeAngleRoll, specifier: "%.2f")°")
+                        .font(.title)
+                    
+
+                    Button(action: {
+                        viewModel.calibrate()
+                    }) {
+                        Text("Calibrate")
+                            .foregroundColor(.white)
+                            .padding()
+                            .background(Color.blue)
+                            .cornerRadius(10)
+                    }
+                }
+                .padding()
     }
 }
 
 #Preview {
     ContentView()
+        .padding()
 }

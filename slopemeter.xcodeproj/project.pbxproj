@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		E75060A12B2A8F160008C7D5 /* slopemeterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75060A02B2A8F160008C7D5 /* slopemeterTests.swift */; };
 		E75060AB2B2A8F160008C7D5 /* slopemeterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75060AA2B2A8F160008C7D5 /* slopemeterUITests.swift */; };
 		E75060AD2B2A8F160008C7D5 /* slopemeterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75060AC2B2A8F160008C7D5 /* slopemeterUITestsLaunchTests.swift */; };
+		E7526FB82B2DDFBB00409361 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7526FB72B2DDFBB00409361 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		E75060A62B2A8F160008C7D5 /* slopemeterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = slopemeterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E75060AA2B2A8F160008C7D5 /* slopemeterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slopemeterUITests.swift; sourceTree = "<group>"; };
 		E75060AC2B2A8F160008C7D5 /* slopemeterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slopemeterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E7526FB72B2DDFBB00409361 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				E750608F2B2A8F140008C7D5 /* slopemeterApp.swift */,
 				E75060912B2A8F140008C7D5 /* ContentView.swift */,
+				E7526FB72B2DDFBB00409361 /* ViewModel.swift */,
 				E75060932B2A8F160008C7D5 /* Assets.xcassets */,
 				E75060952B2A8F160008C7D5 /* Preview Content */,
 			);
@@ -207,7 +210,7 @@
 				};
 			};
 			buildConfigurationList = E75060872B2A8F140008C7D5 /* Build configuration list for PBXProject "slopemeter" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E75060922B2A8F140008C7D5 /* ContentView.swift in Sources */,
+				E7526FB82B2DDFBB00409361 /* ViewModel.swift in Sources */,
 				E75060902B2A8F140008C7D5 /* slopemeterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +426,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"slopemeter/Preview Content\"";
+				DEVELOPMENT_TEAM = KLSR7QLNYM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +455,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"slopemeter/Preview Content\"";
+				DEVELOPMENT_TEAM = KLSR7QLNYM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
